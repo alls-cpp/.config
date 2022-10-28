@@ -5,9 +5,6 @@ end
 -- jk for change mode
 map('i', 'jk', '<ESC>')
 
--- Quit neovim
-map('n', '<C-Q>', ':q<CR>')
-
 -- Move line up and down in NORMAL and VISUAL modes
 map('n', '<C-j>', ':move .+1<CR>')
 map('n', '<C-k>', ':move .-2<CR>')
@@ -25,11 +22,8 @@ map('x', 'A', ':<C-U>normal! ggVG<CR>')
 -- Find and replace
 map('n', '<C-S>', ':%s/');
 
--- File explorer 
-map('n', '<C-N>', ':Lexplore<CR>:vertical resize 30<CR>');
-
 -- Import function
-map('n', '|', ':r ~/Library/');
+map('n', '<C-L>', ':r ~/Library/');
 
 -- cpbooster
     -- Test solution with testcase
