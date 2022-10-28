@@ -1,0 +1,41 @@
+{
+  "contestsDirectory": "/home/alls/CP",
+  "port": 1327,
+  "editor": "kitty",
+  "closeAfterClone": true,
+  "showStatusPageOnSubmit": true,
+  "useUserDefaultBrowser": true,
+  "preferredLang": "cpp",
+  "hideTestCaseInput": false,
+  "maxLinesToShowFromInput": 150,
+  "cloneInCurrentDir": false,
+  "languages": {
+    "cpp": {
+      "template": "/home/alls/Library/Template.cpp",
+      "command": "g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O2",
+      "debugCommand": "g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O2 -DALE",
+      "aliases": {
+        "codeforces": "54",
+        "atcoder": "4003",
+        "omegaup": "cpp17-gcc",
+        "szkopul": "C++",
+        "yandex": "gcc7_3"
+      },
+      "type": "compiled",
+      "commentString": "//"
+    },
+    "py": {
+      "template": "",
+      "command": "python3",
+      "debugCommand": "python3 -O",
+      "aliases": {
+        "codeforces": "31",
+        "atcoder": "4006",
+        "omegaup": "py3",
+        "szkopul": "Python"
+      },
+      "type": "interpreted",
+      "commentString": "#"
+    }
+  }
+}
