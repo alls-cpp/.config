@@ -1,8 +1,0 @@
-require ('keybinds')
-require ('settings')
-require ('plugins')
-require ('_autopairs')
-require ('_comment')
-require ('_treesitter')
-require ('_lualine')
-require ('_lsp')
