@@ -7,8 +7,6 @@ This repo contains config files so that they're backuped and can be shared acros
 
 * For configure LSP in neovim with Mason https://www.youtube.com/watch?v=2iczAXDdgTE
 
-* For powermenu and with Rofi https://www.youtube.com/watch?v=v8w1i3wAKiw&t=439s
-
 * For the notification of low battery, on terminal
 ```
 crontab -e
