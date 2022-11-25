@@ -18,17 +18,23 @@ if [ "$1" == "-h" ] ; then
 	echo "validate.sh  solution  validator  generator  numTests"
 	echo ""
 	echo -e "${BLUE}remove cin >> testcase"
-	echo "validator should return "OK" or the string that explain the error"
+	echo "validator should return the string 'OK' or the string that explains the error"
 	echo -e "validator first take in input the generator input and next the program output${NC}"
+    exit 0
+fi
+g++ $1.cpp -o $1
+g++ $2.cpp -o $2
+g++ $3.cpp -o $3
+if [ ! -f $1 ] || [ ! -f $2 ] || [ ! -f $3 ]; then
     exit 0
 fi
 for ((testNum=0;testNum<$4;testNum++))
 do
     ProgressBar ${testNum} ${4}
-    ./$3.exe > input
-    ./$1.exe < input > out
+    ./$3 > input
+    ./$1 < input > out
     cat input out > data
-    ./$2.exe < data > res
+    ./$2 < data > res
     result=$(cat res)
     if [ "${result:0:2}" != "OK" ];
     then
@@ -39,10 +45,10 @@ do
         cat out
         echo -e "${BLUE}Validator result:${NC}"
         cat res 
+        rm $1 $2 $3 input out res data
         exit
     fi
 done
 echo ""
-echo Passed $4 tests
-
-
+echo -e "${BLUE}Passed $4 tests!!!${NC}"
+rm $1 $2 $3 input out res data
