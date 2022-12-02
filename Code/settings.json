@@ -1,0 +1,57 @@
+{
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 2,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.lineNumbers": "relative",
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>", "l"]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["<tab>"],
+            "after": [">", "g", "v"]
+        },
+        {
+            "before": ["<S-tab>"],
+            "after": ["<", "g", "v"]
+        },
+    ],
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "editor.cursorBlinking": "solid",
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-d>": false,
+        "<C-k>": false,
+        "<C-b>": false,
+        "<C-a>": false,
+        "<C-w>": false,
+        "<C-c>": false,
+        "<C-n>": false,
+        "<C-m>": false,
+        "<C-h>": false,
+    },
+    "vim.highlightedyank.enable": true,
+    "vim.statusBarColorControl": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#282828",
+        "statusBar.noFolderBackground": "#282828",
+        "statusBar.debuggingBackground": "#282828"
+    },
+    "vim.statusBarColors.normal": "#282828",
+    "vim.statusBarColors.insert": "#427b58",
+    "vim.statusBarColors.visual": "#8f3f71",
+    "vim.statusBarColors.visualblock": "#8f3f71",
+    "vim.statusBarColors.visualline": "#8f3f71",
+    "vim.statusBarColors.commandlineinprogress": "#af3a03",
+    "workbench.startupEditor": "none",
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "explorer.confirmDelete": false,
+}
