@@ -1,6 +1,5 @@
 {
     "editor.mouseWheelZoom": true,
-    "window.zoomLevel": 2,
     "editor.minimap.enabled": false,
     "files.autoSave": "onFocusChange",
     "editor.cursorSmoothCaretAnimation": true,
@@ -42,24 +41,9 @@
         "<C-h>": false,
     },
     "vim.highlightedyank.enable": true,
-    "vim.statusBarColorControl": true,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#282828",
-        "statusBar.noFolderBackground": "#282828",
-        "statusBar.debuggingBackground": "#282828"
-    },
-    // gruvbox
-    "vim.statusBarColors.normal": "#282828",
-    "vim.statusBarColors.insert": "#427b58",
-    "vim.statusBarColors.visual": "#8f3f71",
-    "vim.statusBarColors.visualblock": "#8f3f71",
-    "vim.statusBarColors.visualline": "#8f3f71",
-    "vim.statusBarColors.commandlineinprogress": "#af3a03",
-
     "workbench.startupEditor": "none",
     "zenMode.centerLayout": false,
     "zenMode.hideLineNumbers": false,
-    "zenMode.hideTabs": false,
     "explorer.confirmDelete": false,
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
@@ -71,5 +55,10 @@
     "git.confirmSync": false,
     "workbench.iconTheme": "vscode-icons",
     "explorer.confirmDragAndDrop": false,
-    "workbench.colorTheme": "Andromeda Colorizer",
+    "editor.fontFamily": "'Hack Nerd Font'",
+    "window.menuBarVisibility": "toggle",
+    "breadcrumbs.enabled": false,
+    "workbench.colorTheme": "Visual Studio Light - C++",
+    "zenMode.hideTabs": false,
+    "window.zoomLevel": 2,
 }

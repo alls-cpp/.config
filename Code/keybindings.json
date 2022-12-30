@@ -39,7 +39,7 @@
     {
         "key": "shift+k",
         "command": "editor.action.showHover",
-        "when": "editorTextFocus"
+        "when": "vim.mode == 'Normal' && !terminalFocus"
     },
     {
         "key": "shift+tab",
