@@ -1,7 +1,7 @@
 {
-  "contestsDirectory": "/home/alls/CP",
+  "contestsDirectory": "/home/alls/CompetitiveProgramming",
   "port": 1327,
-  "editor": "kitty",
+  "editor": "gnome-terminal",
   "closeAfterClone": true,
   "showStatusPageOnSubmit": true,
   "useUserDefaultBrowser": true,
@@ -11,7 +11,7 @@
   "cloneInCurrentDir": false,
   "languages": {
     "cpp": {
-      "template": "/home/alls/Library/Template.cpp",
+      "template": "/home/alls/CompetitiveProgramming/Library/Template.cpp",
       "command": "g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O2",
       "debugCommand": "g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O2 -DALE",
       "aliases": {
