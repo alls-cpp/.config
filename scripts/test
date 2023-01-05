@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cpb t $1.cpp

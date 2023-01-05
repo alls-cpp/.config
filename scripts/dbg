@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ $# -eq 1 ]
+then
+	cpb t $1.cpp -t 1 -d
+else
+	cpb t $1.cpp -t $2 -d
+fi

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+BLUE='\033[0;36m'
+NC='\033[0m' # no color
+
+echo -e "${BLUE}test a${NC} test your program against all available test cases"
+echo -e "${BLUE}dbg a${NC} to use testcase1 file as input"
+echo -e "${BLUE}dbg a N${NC} to use testcaseN file as input"
+echo -e "${BLUE}cpb t a.cpp -d${NC} to use keyboard as input"
+echo -e "${BLUE}s a${NC} submits your file to the corresponding judge"
+echo -e "${BLUE}compare -h${NC} for more informations"
+echo -e "${BLUE}validate -h${NC} for more informations"
+echo -e "${BLUE}ren${NC} A_test.in1 -> A.in1    Basf.cpp -> B.cpp"

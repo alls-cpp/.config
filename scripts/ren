@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# rename each file in the current directory removing all characters exluding first character and extension
+# example:
+# A_ciao.txt -> A.txt
+# Baaaa.cpp -> B.cpp
+# Aasdfas.in1 -> A.in1
+for f in *; do mv "$f" "${f:0:1}.${f##*.}"; done
