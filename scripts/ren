@@ -5,4 +5,5 @@
 # A_ciao.txt -> A.txt
 # Baaaa.cpp -> B.cpp
 # Aasdfas.in1 -> A.in1
+
 for f in *; do mv "$f" "${f:0:1}.${f##*.}"; done

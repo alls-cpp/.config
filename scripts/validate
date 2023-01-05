@@ -15,11 +15,11 @@ function ProgressBar {
 
 if [ "$1" == "-h" ] ; then
 	echo -e "${RED}EXAMPLE"
-	echo "validate.sh  solution  validator  generator  numTests"
-	echo ""
-	echo -e "${BLUE}remove cin >> testcase"
-	echo "validator should return the string 'OK' or the string that explains the error"
-	echo -e "validator first take in input the generator input and next the program output${NC}"
+	echo -e "validate  solution  validator  generator  numTests${NC}"
+    echo "solution, validator and generator are respectively the executables of the solution, validator of a solution and of the testcases generator"
+    echo "validator should return the string 'OK' or the string that explains the error"
+    echo "validator first take in input the generator input and next the program output"
+	echo "remove cin >> testcase"
     exit 0
 fi
 g++ $1.cpp -o $1
